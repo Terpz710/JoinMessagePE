@@ -1,0 +1,22 @@
+# Made by Terpz710
+# Made for BlueGamesNetworkPE
+
+# Join Message
+
+join_message: "Welcome {player} to the server!"
+
+# Join Title
+
+join_title: "Welcome"
+
+# Join Subtitle
+
+join_subtitle: "Enjoy your stay!"
+
+# Leave Message
+
+leave_message: "Goodbye {player}!"
+
+# First timer message
+
+first_timer_message: "Welcome, {player}, to the server for the first time!"
