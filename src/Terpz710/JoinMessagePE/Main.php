@@ -26,7 +26,7 @@ class Main extends PluginBase implements Listener {
         $player = $event->getPlayer();
 
         if (!$player->hasPlayedBefore()) {
-            $firstTimerMessage = $this->config->get("first_timer_message", "Welcome, {player}, to the server for the first time!");
+            $firstTimerMessage = $this->config->get("first_timer_message", "{player} has joined for the first time!");
             $firstTimerMessage = str_replace("{player}", $player->getName(), $firstTimerMessage);
             $event->setJoinMessage($firstTimerMessage);
         } else {
