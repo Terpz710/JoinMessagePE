@@ -19,4 +19,4 @@ leave_message: "Goodbye {player}!"
 
 # First timer message
 
-first_timer_message: "{player} had joined for the first time!"
+first_timer_message: "{player} has joined for the first time!"
